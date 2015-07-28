@@ -12,6 +12,12 @@ h1, h2, h3 {
 
 a {
   text-decoration: none;
+  color: #344f66;
+  transition: all .314s ease-in-out;
+}
+
+a:hover {
+  color: #d8bc8e;
 }
 
 p {
@@ -117,18 +123,14 @@ nav {
 
 nav a {
   font-size: 14px;
-  color: #344f66;
-  padding: 25px;
-  transition: all .314s ease-in-out;
-}
-
-nav a:hover {
-  color: #d8bc8e;
+  padding: 15px;
 }
 
 img.circle {
   display: block;
   margin: 0 auto 20px;
+  width: 80%;
+  max-width: 300px;
 }
 
 .text {
@@ -193,7 +195,7 @@ p.large {
   overflow: auto;
   width: 80%;
   max-width: 940px;
-  margin: 0 auto;
+  margin: 0 auto 40px;
 }
 
 .leftcol {
@@ -264,7 +266,10 @@ p.large {
 }
 
 .rsvp-form {
+  display: block;
+  margin: 0 auto 20px;
   font-family: "Montserrat", sans-serif;
+  font-size: 24px;
   text-transform: uppercase;
   text-align: center;
   color: #344f66;
