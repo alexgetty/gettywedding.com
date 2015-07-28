@@ -83,10 +83,6 @@ input:focus, textarea:focus {
   color: #344f66;
 }
 
-.rsvp-form {
-  font-size: 24px;
-}
-
 .attending {
   margin-bottom: 30px;
   overflow: auto;
@@ -265,4 +261,11 @@ p.large {
   float: left;
   width: 30%;
   padding: 1.5%;
+}
+
+.rsvp {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  color: #344f66;
 }
