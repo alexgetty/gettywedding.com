@@ -83,6 +83,10 @@ input:focus, textarea:focus {
   color: #344f66;
 }
 
+.rsvp-form {
+  font-size: 24px;
+}
+
 .attending {
   margin-bottom: 30px;
   overflow: auto;
